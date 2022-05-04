@@ -1,0 +1,18 @@
+--> START //src/core:graph_test
+=== RUN   TestAddTarget
+--- PASS: TestAddTarget (0.10s)
+=== RUN   TestAddPackage
+--- PASS: TestAddPackage (0.35s)
+=== RUN   TestTarget
+--- PASS: TestTarget (0.30s)
+=== RUN   TestRevDeps
+--- PASS: TestRevDeps (0.00s)
+--- SKIP: TestAllDepsBuilt (0.20s)
+    graph_test.go:44: Temporarily disabled until we resolve issue T12532.
+=== RUN   TestAllDepsResolved
+--- PASS: TestAllDepsResolved (0.00s)
+=== RUN   TestDependentTargets
+--- PASS: TestDependentTargets (0.50s)
+=== RUN   TestSubrepo
+--- PASS: TestSubrepo (0.00s)
+PASS

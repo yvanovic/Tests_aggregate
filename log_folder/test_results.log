@@ -1,0 +1,17 @@
+On Test File: //src/core:graph_test => 8 test(s) run in 14500ms; 7 passed; 0 failed; 1 skipped
+	✅ TestAddTarget PASS 0.10s
+	✅ TestAddPackage PASS 0.35s
+	✅ TestTarget PASS 0.30s
+	✅ TestRevDeps PASS 0.00s
+	❗ TestAllDepsBuilt SKIP 0.20s
+	✅ TestAllDepsResolved PASS 0.00s
+	✅ TestDependentTargets PASS 0.50s
+	✅ TestSubrepo PASS 0.00s
+On Test File: //src/core:lock_test => 2 test(s) run in 10200ms; 1 passed; 1 failed; 0 skipped
+	❌ TestAcquireRepoLock FAIL 1.02s => Check source file for failure
+	✅ TestReadLastOperation PASS 0.00s
+On Test File: //src/gc:rewrite_test => 1 test(s) run in 100ms; 1 passed; 0 failed; 0 skipped
+	✅ TestRewriteFile PASS 0.01s
+On Test File: //src/core:lock_test => 2 test(s) run in 0ms; 2 passed; 0 failed; 0 skipped
+	✅ TestAcquireRepoLock PASS 0.00s
+	✅ TestReadLastOperation PASS 0.00s

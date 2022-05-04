@@ -1,0 +1,8 @@
+--> START //src/core:lock_test
+=== RUN   TestAcquireRepoLock
+2019/07/11 19:01:44 Attempting to acquire lock plz-out/.lock...
+2019/07/11 19:01:44 Failed to acquire lock plz-out/.lock!
+--- FAIL: TestAcquireRepoLock (1.02s)
+=== RUN   TestReadLastOperation
+--- PASS: TestReadLastOperation (0.00s)
+FAIL

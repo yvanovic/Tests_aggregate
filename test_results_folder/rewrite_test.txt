@@ -1,0 +1,4 @@
+--> START //src/gc:rewrite_test
+=== RUN   TestRewriteFile
+--- PASS: TestRewriteFile (0.01s)
+PASS
